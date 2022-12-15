@@ -1,0 +1,277 @@
+body {
+    margin: 0;
+    font-family: "languageFont", "AvenirNext", "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu, sans-serif, "WebRupee";
+    
+}
+*{
+    box-sizing: border-box;
+}
+
+.header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: 90px;
+    background: bisque;
+    display: flex;
+}
+.logo {
+    width: 15%;
+    height: 100%;
+    background-color: rgb(243, 246, 246);
+}
+
+a {
+    text-decoration: none;
+    color: #8a8f99;
+}
+
+a:hover{
+    color: rgb(51, 51, 173);
+}
+
+.vivotext {
+    padding: 8px;
+    width: 74%;
+    height: 67%;
+    margin-left: 39px;
+    margin-top: 10px;
+}
+
+.nav-bar {
+    width: 74%;
+    height: 100%;
+    background-color: rgb(243, 246, 246);
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    float: left;
+    margin-top: 16px;
+
+}
+
+.List-items-a {
+    color: black;
+    font-size: 14px;
+    background-color: rgb(243, 246, 246);
+    padding: 25px;
+    font-weight: 400;
+    font-family: "languageFont", "AvenirNext", "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu, sans-serif, "WebRupee";
+}
+
+.List-items-a:hover{
+    color: blue;
+}
+.icons {
+    width: 13%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(243, 246, 246);
+}
+
+.search {
+    margin-top: 31px;
+    margin-left: 20px;
+}
+
+.profile {
+    margin-top: 31px;
+    margin-left: 20px;
+}
+
+
+
+.main{
+    width: 100%;
+}
+.section{
+    width: 100%;
+   position: relative;
+    background-color:  rgb(243, 246, 246);
+}
+.pic{
+    position: static;
+}
+
+.text-over{
+    position: absolute;
+    top: 11%;
+    left: 5%;
+    font-size: 25px;
+}
+
+.img2-over{
+    left: 12%;
+    width: 3%;
+    height: 1%;
+    top: 350px;
+}
+
+.image-over{
+    width: 25%;
+    height: 4%;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.v25series-photo{
+    width: 100%;
+    height: 729px;
+}
+
+.blueWorldcup-photo{
+    width: 89%;
+    height: 587px;
+    margin-left: 5%;
+    margin-top: 79px;
+    border-radius: 35px;
+}
+
+.x80-photo{
+    margin-bottom: 66px;
+}
+
+.discover-part{
+    position: inherit;
+    width: 100%;
+    margin-top: 35px;
+    background-color: rgb(243, 246, 246)
+}
+
+.discover-text{
+    margin-left: 80px;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.text-over-v23pro{
+    position: absolute;
+    top: 30%;
+}
+.v23pro-ptext-color{
+    color: #fff;
+   
+}
+
+.twoPhones-parent{
+    position:relative
+}
+
+
+.card-parent{
+    position: relative;
+}
+
+.row{
+    background-color: rgb(243, 246, 246);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.row1{
+    display: flex;
+    flex-direction: column;
+}
+
+.col{
+    width: 100%;
+    background-color: #fff;
+    margin: 0;
+    margin-bottom: 40px;
+
+}
+.card{
+    border-radius: 22px;
+}
+
+.card-para{
+    color: rgb(14, 3, 3);
+    margin: 30px;
+    margin-bottom: 68px;
+    text-align: left;
+}
+.card-span{
+    font-weight: 500;
+    font-size: 26px;
+   
+}
+.img{
+    border-radius: 22px;
+}
+.card-imag{
+    border-radius: 22px 22px 0px 0px;
+}
+
+.bottom-images{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.footer{
+    width: 100%;
+    height: 47em;
+    background-color: rgb(43, 40, 40);
+}
+
+.footer-container{
+    margin-bottom: 20px;
+    margin-left: 6%;
+    background-color: rgb(43, 40, 40);
+    width: 87%;
+}
+
+.footer-row{
+    color:#8a8f99;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-col{
+    display: flex;
+    flex-direction: column;
+}
+
+.ul-footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.phno{
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.Social-media{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bottom-paragraph{
+    font-size: small;
+    margin-left: 10px;
+    margin-top: 30px;
+    color: #8a8f99;
+}
+
+.bottom-part{
+    display: flex;
+}
+
+.bottom-part-left{
+    margin: 0;
+    width: 80%;
+}
+
+.bottom-part-right{
+    margin: 0;
+    width: 20%;
+}
